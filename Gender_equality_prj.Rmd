@@ -54,7 +54,7 @@ The last question was selected from a different macro-area of the EVS 2017, but 
 
 
 
-## PCA and LDA
+## PCA and LCA
 
 The aim of this project is to define latent classes based on people beliefs: groups would describe one of the three levels of emancipation in the context of the gender revolution theory and outline which is the most common opinions pattern in the selected societies.
 Firstly, since Europe is very diverse and a single analysis on a European base would be less meaningful, two countries, Hungary and Sweden, were selected. The selection was carried out evaluating cultural, historical and social differences, in order to explore two very different realities.
