@@ -1,5 +1,5 @@
 ---
-title: "Computational Social Science Exam - 28.06.2021"
+title: "Computational Social Science Project"
 author: "Luisa Lo Presti"
 output:
   word_document: default
