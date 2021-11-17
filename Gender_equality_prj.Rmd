@@ -73,7 +73,7 @@ It is a person-oriented approach designed for segmentation and profiling and it 
 
 library(haven)
 
-path = file.path("C:/Users/luisa/Desktop/LM_SECOND_SEMESTER/ComputationalSocialScience/EXAM/EuropeanValuesSurvey_2017/ZA7500_v4-0-0.sav")
+path = file.path("C:/Users/luisa/Documents/ComputationalSocialScience/EuropeanValuesSurvey_2017/ZA7500_v4-0-0.sav")
 dataset = read_sav(path)
 
 dfr<- subset(dataset, select = c(v72, v73, v74, v75, v76, v77, v78, v81, v83, v141, c_abrv))
