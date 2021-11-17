@@ -1,0 +1,329 @@
+---
+title: "Computational Social Science Exam - 28.06.2021"
+author: "Luisa Lo Presti"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+## INTRODUCTION 
+
+In recent years there have been a great discussion about the level of equality and inclusion in our society. In sociology, in particular in the field of gender studies, but also in demography, several authors referred to the so-called gender revolution as “incomplete” (Esping-Andersen, 2009), “stalled” (England, 2010) or “unfinished” (Gerson, 2009). Therefore, in modern societies there is something lacking that does not allow to achieve full equality. In the context of this paper, the different steps of the gender revolution theory will be explored and, in light of this theorical framework, the level of equality achieved in two different European societies will be analyzed. This process will be carried out using data from the European Value Study (EVS), a longitudinal survey repeated every nine years in Europe. The EVS is performed since 1981 on representative samples of the population of each country and the last data collection, which is the one considered in this paper, has been made in 2017. A country-based latent class analysis will be performed on a subset of these questions in order to better understand the perception of the role of women in society, family, work and education. 
+
+
+
+## PREVIOUS STUDIES AND RESEARCH QUESTION
+
+The gender revolution theory, which focuses on three kinds of balances, has been developed in order to explain the economic and demographic consequences of the greater equality achieved by women after their entry into the labor market. Indeed, the theory recognizes an improvement in the rights of women: greater equality has been achieved in the public sphere thanks to widespread higher education and the possibility to enter the job market. However, this step forward has not concerned all aspects of life: first of all, public equality is not completed in sectors such as political representation and equal pay. Moreover, on the private sphere women have to face most of the family workload on their own. Research showed that women spend way more time in doing housework and taking care of their children than men, even when they are the breadwinner. Some scholars believe that the traditional roles that still rule in the private sphere are a consequence of the incoherence between the new gained role of women in society and the strong social norms that view women as mothers and men as workers. This particular topic has been covered by a specific question in the EVS and will be analyzed in a while.
+All in all, if we take into account the history toward gender equality, we will notice three macro-phases: in the first one, the lack of equality confine women to the role of mothers and wives. This is considered as a stable balance because the same beliefs and views are shared in the public and private sphere. 
+In the following phase, women acquire more rights in the public sphere, which are not met by increasing equality in the private one: this is an unstable balance because it leads women to deal with full-times jobs and almost all housework, making it very hard to find a compound between the two things. According to most demographic studies, there is a high correlation between this unbalance and the decreasing fertility rate: having children becomes a sort of opportunity-cost factor to consider for women. 
+Finally, a new stable balance will be reached when equality will be achieved in the private sphere, generating exchangeable working and parental roles within the household. This last phase is to consider a future achievement, even though some countries, such as the Scandinavian ones, are farther ahead in reaching this goal than others. 
+Noteworthy steps to be taken to move in this direction are public policies in support of interchangeable parental roles, equal parental leaves, and educational work.
+Considering this framework, what the following analysis aim to do is to recognize this evolution pattern in the selected European countries and to reflect on the population values concerning the role of women in society, family, and life in general. Gender equality can be thought as a sort of latent variable buildup of several aspects (mainly concerning political representation and equality, job market and working life, family life, and education): by looking at relevant questions in the EVS 2017, the aim is to identify the main groups of people sharing similar views and defining what kind of achievements and gaps are present and reinforced by people’s beliefs. Using latent class analysis (LCA), three groups of people will be outlined depending on their opinions and views on selected statements: based on their beliefs, it will be possible to define profiles of families and households characterized by different levels of gender equality and to contextualize these classes in the above-mentioned theory.
+
+
+
+## METHODOLOGY 
+
+
+## Dataset 
+
+The EVS is a cross-national and longitudinal survey carried out in an increasing number of countries all over Europe and it concerns beliefs, ideas, values, and opinions of the citizens about several topics, which can be classified in six main areas: life, family, work, religion, politics, and society. The project started in 1981 and the last data collection took place in 2017 and it led to the confirmation of the profound changes that are occurring, with different speeds and characteristics, in all modern societies. It goes without saying that most cultural and social changes seem to depend upon several socio-economic and historical factors, which are clearly different in the various European states.
+Considering the last survey available, the analysis will focus mainly on questions taken from the “family” macro-area. Nowadays, the traditional model (male breadwinner – female housekeeper) is less and less pervasive, yet most of the European population seems to be conservative in values and ideas concerning family life. Europeans believe that both a father and a mother are needed for a child to be happy and generally the best and preferred choice is following the traditional family pattern.
+Given the research topic, only certain questions within the family demands will be analysed, while few statements regarding the role of women will be taken from other areas. In details, the questions that have been selected from the EVS 2017 are the following:
+  Q25) Do you strongly agree, agree, disagree, or strongly disagree?
+    v72) When a mother works for pay, the children suffer.
+    v73) A job is alright but what most women really want is a home and children.
+    v74) All in all, family life suffers when the woman has a full-time job.
+    v75) A man's job is to earn money; a woman's job is to look after the home and family.
+    v76) On the whole, men make better political leaders than women do.
+    v77) A university education is more important for a boy than for a girl.
+    v78) On the whole, men make better business executives than women do. 
+  Q26) Do you strongly agree, agree, neither agree not disagree, disagree, or strongly disagree?
+    v81) When jobs are scarce, men have more right to a job than women.
+  Q27) Do you strongly agree, agree, neither agree not disagree, disagree, or strongly disagree?
+    v83) It is a duty towards society to have children.
+  Q39) Many things are desirable, but not all of them are essential characteristics of democracy. 
+  Please tell me for each of the following things how essential you think it is as a characteristic of democracy. Use this scale where 1 means “not at all an essential characteristic of democracy” and 10 means it definitely is “an essential characteristic of democracy”.
+    v141) Women have the same rights as men.
+The answers to the first questions are encoded in a Likert scale, thanks to which respondents specify their level of agreement or disagreement to a statement on a symmetric agree-disagree scale. The idea of this scale is to capture how strong is the feeling, idea, or opinion toward some given aspect of life. When studying a latent phenomenon, it is common to deal with a set of partially correlated statements, which show that there is consistency in the questions chosen, thus their ability to describe a multifaced aspect of life is validated. For this reason, correlations have been considered at the beginning of the analysis.
+The typical Likert scale involves five levels of agreements (strongly agree, agree, neither agree nor disagree, disagree, and strongly disagree), however variations are common as well: in the first question (Q25), respondents had only four levels available to answer, taking away the neutral position. 
+The first questions deal with the role of women in business, politics, education, but mostly in family and in relation to children. Indeed, the studies of the EVS proved that European families are “children-centered”.
+The last question was selected from a different macro-area of the EVS 2017, but it was retained noteworthy, even if it deals with the idea of democracy. Indeed, people tend to associate democracy with the idea of justice and a positive regime, and this is confirmed empirically by the fact that even dictatorships tend to legitimize their regimes through a semblance of democracy or through the choice of words in speeches. Therefore, asking if it is democratic for women to have the same rights as men is indirectly related to questioning the desirability and justice of the statement, which could be used as a basic factor involved in the political emancipation.
+
+
+
+## PCA and LDA
+
+The aim of this project is to define latent classes based on people beliefs: groups would describe one of the three levels of emancipation in the context of the gender revolution theory and outline which is the most common opinions pattern in the selected societies.
+Firstly, since Europe is very diverse and a single analysis on a European base would be less meaningful, two countries, Hungary and Sweden, were selected. The selection was carried out evaluating cultural, historical and social differences, in order to explore two very different realities.
+Before implementing the LCA, for each of the selected country a fast principal component analysis (PCA) was computed. The reason for this is that it helps finding the variables with highest variance, thus the statements that obtained very different answers; this was useful since it gave a first understanding of the most divisive and interesting factors to take into account later in the LCA. 
+PCA can be used in this way since it is a dimensionality reduction technique which creates principal components made of variables and their loading factors, with the aim of maximizing the amount of variance explained in the first component.
+As mentioned, this paper will use LCA to outline different profiles of people based on their beliefs and ideas concerning the role of women in various aspects of life. The groups that will be found will be useful to understand how much the emancipation of women permeate the beliefs of people. Indeed, most people would say they support gender equality, but they may not recognize certain ideas they have undermine this process: for this reason, using multiple questions as indicators is appropriate. 
+LCA provides a powerful, yet very flexible, approach to the analysis of categorical data. Through LCA, latent categorical variables (by definition not directly observable) are measured by means of several observed categorical indicators. LCA is a type of model-based cluster analysis founded on the idea of soft or probabilistic clustering; this means that, for each observation, it computes probabilities of belonging to each class and then assigns it to the class with the highest probability, following the expectation-maximization algorithm. LCA aims to identify patterns of responses to create classes of individuals sharing similar and peculiar characteristics. This means that it minimizes the difference (variance) within the class and maximize the difference among classes. 
+It is a person-oriented approach designed for segmentation and profiling and it has been preferred over traditional clustering methods, such as k-means or hierarchical clustering, for several reasons. Firstly, it works better with categorical variables, and it suits surveys analysis; then, being it model-based, it is not distance dependent; finally, it is less sensible to scale and, belonging to soft clustering methods, it is very flexible, allowing membership to multiple clusters with different probabilities.
+
+
+
+## ANALYSIS AND INTERPRETATION OF RESULTS
+
+```{r}
+#Load the dataset and subset it to get only the variables needed for this analysis.
+
+library(haven)
+
+path = file.path("C:/Users/luisa/Desktop/LM_SECOND_SEMESTER/ComputationalSocialScience/EXAM/EuropeanValuesSurvey_2017/ZA7500_v4-0-0.sav")
+dataset = read_sav(path)
+
+dfr<- subset(dataset, select = c(v72, v73, v74, v75, v76, v77, v78, v81, v83, v141, c_abrv))
+```
+
+```{r}
+#Pre-processing step: 
+#remove NAs and codify all variables so that the answers appear in the same scale 1-4.
+
+anyNA(dfr)
+#remove rows with NA
+dfr <- na.omit(dfr)
+
+#For the purpose of this analysis we will consider "neither agree nor disagree" as 
+#NA and DK (don't know), which were already removed from the dataframe.
+dfr <- dfr[dfr$v81 != 3, ]
+dfr <- dfr[dfr$v83 != 3, ]
+dfr$v81[dfr$v81 == 4] <- 3
+dfr$v81[dfr$v81 == 5] <- 4
+dfr$v83[dfr$v83 == 4] <- 3
+dfr$v83[dfr$v83 == 5] <- 4
+
+#v141 is codified on a scale from 1 to 10, showing different level of agreement or disagreement.
+#The answers will be re-coded on a scale 1-4, as all the previous ones.
+dfr$v141 <- ifelse(dfr$v141 <= 2, "strongly disagree",
+                   ifelse(dfr$v141>2 & dfr$v141<=5, "disagree",
+                          ifelse(dfr$v141>5 & dfr$v141<9, "agree", "strongly agree")))
+
+dfr$v141 <- ifelse(dfr$v141 == "strongly disagree", 4,
+                   ifelse(dfr$v141 == "disagree", 3,
+                          ifelse(dfr$v141 == "agree", 2, 1)))
+```
+
+
+
+```{r}
+#EXPLORATORY DATA ANALYSIS AND VISUALIZATION 
+
+#CORRELATION PLOT:
+#Create a correlation matrix and plot it to explore the data.
+
+library("corrplot")
+df.only.num <- subset(dfr, select = -c(c_abrv))
+cor.matrix <- cor(df.only.num, use="complete", method = "pearson")
+par(mfrow=c(1,2))
+corrplot(cor.matrix, addrect = 2)
+corrplot(cor.matrix, method = "number", order = "AOE", type="lower") 
+```
+
+The correlation plots suggest that there is a pretty high correlation among all variables but v141. This is probably due to the fact that this statement relates to a really basic principle that is considered to be well-established, namely the principle of equal rights between women and men in a democracy, thus not much divergence between different groups of people is found. Basically, it means that there is almost no relation between the opinions concerning the other statements and this one. Nevertheless, since the purpose of the analysis is to analyze the steps toward gender equality, this variable was kept as an indicator of one of the first steps, which, in the framework of the gender revolution theory, can be conduct at the very beginning of the first phase.
+
+As a first exploration of the data, one may want to visualize the answers graphically to have a first clear understanding of the beliefs in Europe and in the particular countries selected. 
+
+```{r}
+#Visualize the levels of agreement and disagreement in Europe as a whole and then the different response patterns in the selected countries.
+
+library("dplyr")
+library("likert")
+library("plyr")
+
+#Answers collected in all European countries are involved in this visualization.
+lev <- c("agree strongly", "agree", "disagree", "disagree strongly")
+survey <- dfr %>% 
+  dplyr::mutate_if(is.character, factor) %>%
+  dplyr::mutate_if(is.numeric, factor, levels = 1:4, labels = lev) %>%
+  na.omit() %>%
+  as.data.frame()
+
+plot(likert(survey[,1:10]), plot.percents = TRUE, ordered = FALSE, wrap = 60)
+```
+
+
+```{r}
+#Answers on a country base:
+df.cntr <- dfr[dfr$c_abrv == 'HU' | dfr$c_abrv == 'SE',]
+
+survey.cntr <- df.cntr %>%
+  dplyr::mutate_if(is.character, factor) %>%
+  dplyr::mutate_if(is.numeric, factor, levels = 1:4, labels = lev) %>%
+  na.omit() %>%
+  as.data.frame()
+
+plot(likert(survey.cntr[,1:4], grouping = survey.cntr$c_abrv))
+plot(likert(survey.cntr[,5:7], grouping = survey.cntr$c_abrv))
+plot(likert(survey.cntr[,8:10], grouping = survey.cntr$c_abrv))
+```
+
+The plots above show different patterns of answers in the two countries: I will not go into details in the description of the plots, since a more detailed analysis will be done later using the LCA; however, clear differences among opinions in the two countries are shown.
+
+
+After this initial exploration, it is possible to precede in the actual analysis. 
+
+```{r}
+#Create single dataframes for each country to perform LCA:
+hu <- dfr[dfr$c_abrv == 'HU',]
+se <- dfr[dfr$c_abrv == 'SE',]
+```
+
+Firstly, let's take into consideration Hungary.
+Before looking into LCA, we may want to understand which are the most important variables among the one chosen.
+Indeed, there may be variables, which value do not variate much between different categories of people. 
+Thanks to PCA, it is possible to identify variables that explain the highest variation, meaning statements that are divisive and therefore cause different groups of people to have diverging opinions toward these affirmations. These statements are the most interesting to analyze and the one that actually characterize the different profiles of people.
+
+```{r}
+#HUNGARY
+
+#PCA
+
+library(FactoMineR)
+library(factoextra)
+
+hu <- subset(hu, select = - c(c_abrv))
+PCanalysis <- PCA(hu) 
+#Follows a different visualization of the same plot: it outlines better the importance of variables, coloring in red the most important ones and in green/blue the one contributing the less to explain the variance.
+fviz_pca_var(PCanalysis, col.var='cos2', gradient.cols=c('#00afbb', '#e7b800', '#fc4e07'))
+summary(PCanalysis) 
+#Scree plot: a bar chart of the eigenvalues, which represent the variances.
+fviz_screeplot(PCanalysis, addlabels=TRUE, ncp=10) 
+```
+
+Both graphically and in the summary, it is possible to notice that with two principal components we can explain around 55.7% of the total variance.
+Looking at the summary, we can also identify the most important variables contributing to each component, in particular to the first one, which by definition is the one that expresses the greatest amount of variance. Variables with loading higher than 0.3 (in absolute value) are considered to have a significant contribution; the highest the loading, the more the variable is relevant.
+The only variable not meeting the 0.3 threshold is v141, which has loading equal to -0.28. 
+Graphically, we can also note that it points in a completely different direction, belonging to a group by itself. This is not surprising since it was selected from a different category of statements concerning democracy and we expect, also in light of theory and on the democratic contexts we are studying, wide agreement with the necessity for women and men to have equal rights in this political framework.
+All variables seems to be significant but the aim is to find the most divisive aspects: it is possible to notice that the less varying response pattern appears in v141 and v83, while the statements collecting very different opinions are v73, v74, and v75, which concern the relation between women, family life and children. This seems to be coherent with the theory of the three balances, since it outlines a context in which the opinion about the role of women in the private sphere is still quite diverse, while there is some kind of agreement on the public role. The contribution of the variables to the first component can also be visualized as follows.
+
+```{r}
+fviz_cos2(PCanalysis, choice='var', axes=1)
+```
+
+```{r}
+#LCA
+
+library(poLCA)
+
+f <- cbind(v72, v73, v74, v75, v76, v77, v78, v81, v83, v141)~1 
+lca1 <- poLCA(f, hu, nclass = 2, graphs = TRUE)
+
+```
+
+The default for LCA is to use two classes: it is possible to see that 60.6% of the Hungarian population would belong to the first class, which outlines disagreement (even though not strong) with most of the statements. Most people belonging to this group disagree with the fact that children suffer when their mother works (v72); nevertheless, a quite high share of this group agrees: indeed, the probability of agreeing with this statement, given the belonging to class one, is around 35% and the probability of agreeing strongly is more than 17%.
+
+Considering strong and moderate agreement and disagreement together, around 52% of people belonging to this profile actually agree with this statement, while in class two almost 68% of people disagree.
+This answers could be consider particularly related to the outcome of the agreement with statement v74: in class one, 53% of people agree that family life suffers if a woman works full-time, while in class two the majority (almost 71%) disagrees. 
+
+In class one, most people (around 57%) believe that what women really desire is home and children (v73: "A job is alright but what most women really want is a home and children."), while work is not an essential part of their lives; while in class two around 68% of people disagree.
+As far as concerns statement v75 ("A man's job is to earn money; a woman's job is to look after the home and family."), which propose a more traditional and conservative type of family, almost 53% of people belonging to class one (60,8% of the population) agree with this statement, while less than 21% of people in group two are found in agreement.
+
+Altogether, this suggests that the majority of the Hungarian population is still very conservative and has as reference a traditional type of family with male-breadwinner and female-housekeeper. This could be a severe indicator that women having a job is seen as a secondary source of income, probably less important, with the possibility to give it up, since their main role within the family is the cure of the house and children. This undermines the reaching of equal and exchangeable parental roles and make it hard for women to enter the job market, since the greatest amount of their time is absorbed by home and children. This also shows that, in time of crisis, the one to suffer the most will be women: since their job is perceived as less relevant, it is more likely that they will lose it if a choice need to be taken. This is also shown by the answers given at question v81 ("When jobs are scarce, men have more right to a job than women."), where 37% of people in the first class agree, while the disagreement is almost total in the second class, and at question v78 ("On the whole, men make better business executives than women do."), where 39% of people belonging to the first class seems to agree against a complete disagreement in class two.
+
+Other statements seem to be not particularly divisive, even thought the same pattern can be noticed in the two groups. Noteworthy is the fact that, despite the agreement with the statements that see men as better workers, people belonging to the first class perceive university education as important for both males and females.
+
+The output also shows the predicted class memberships, which assign observations to each latent class using posterior probabilities. The estimated class population shares being similar to the predicted class memberships is an indicator of good model fit, even though it cannot be used to assess model fit on its own. Indeed, to do this either AIC, BIC, G^2 or X^2 are used. The most common choice to compare models is the BIC and it is preferred over the AIC since it introduces highest penalties on complex models, resulting in simpler model fits, with less latent classes.
+
+
+```{r}
+#To find the optimal number of classes, we look for the one that minimizes the BIC.
+bic.vector <- c()
+for (c in 2:5) {
+  lca2 <- poLCA(f, hu, nclass = c, graphs = FALSE)
+  bic.vector <- append(bic.vector, lca2$bic)
+}
+bic.hu <- data.frame(class = c(2:5), bic = bic.vector)
+bic.hu[which.min(bic.hu$bic), ] 
+lca.hu.4 <- poLCA(f, hu, nclass = 4, graphs = TRUE)
+
+#Four classes seems to be the optimal number; however, given the absence of very big groups (the percentage of people belonging to certain classes is quite low) and the theoretical framework we are considering (the three balances context), three classes may work as well.
+
+lca.hu.3 <- poLCA(f, hu, nclass = 3, graphs = TRUE)
+
+```
+
+It is possible to notice how the population is well differentiated in three groups of big sizes, which suggest a widespread presence of all the three kind of balances, understood as family models, almost in equal measure in the Hungarian society. 
+
+Class one, which involves 28.1% of the population, is composed for more than 89% of people that believes children suffer when the mother works and almost 89% that believes that family life suffers in general. Almost 90% of people agree with the fact that what women really want is home and children and almost 61% would give priority to men in the job market if jobs are scarce. This last statement, find correspondence in the beliefs that men are better business executives for almost 48% of this class respondents. It seems quite evident that this group of people is loyal to the traditional family model, which we could associate to the first level of the gender revolution theory, with the risk of scarce gender equality, both in public and private sphere.
+
+Class two, composed by 31.7% of the population, manifest significant levels of disagreement with statements related to family life. Between 70 and 95% of the people belonging to this profile, express disagreement, mostly strong disagreement, with all the statements analyzed above. This seems to be an indicator of households where taking care of home and children is not believed to be a specific duty of women only.
+
+Class three, which characterizes more than 40% of the population, shows a moderate disagreement with most questions, leaving space for a minor but significant part of people in this group to show moderate agreement. Only few people (18%) believe that men have the precedence in working if jobs are scarce (v81), however around 34% is loyal to traditional roles (v75), and think children and family life suffer when mothers works (v72 and v74) and, for 39% of them a woman's desires are linked to home and children. 
+This may be seen as a transitional part of society, associating these opinions with the ones found in the second stage of the gender revolution theory, where equality in the job market and education (public sphere) is recognized, but housework are also still considered mostly a woman's duty.
+
+The three groups are quite different, nevertheless none questions the need of democratic equal right.
+Interesting is the role of education: while in class two and three no one agrees with the statement "A university education is more important for a boy than for a girl." (v77), more than 30% of people in class one believes this is right. The right to education for everyone seems to be a well-established principle for most, but the difference between class one and the other two is quite strong.
+
+
+Let's analyze the situation in Sweden and see if and how the values change.
+
+```{r}
+#SWEDEN  
+
+#PCA
+
+#Changing country, we can once again look at the PCA to see if we find common pattern in which are the most divisive questions. 
+se <- subset(se, select = - c(c_abrv))
+PCanalysis2 <- PCA(se) 
+fviz_pca_var(PCanalysis2, col.var='cos2', gradient.cols=c('#00afbb', '#e7b800', '#fc4e07'))
+summary(PCanalysis2)
+#Scree plot:
+fviz_screeplot(PCanalysis2, addlabels=TRUE, ncp=10)
+#Contributions to the first component:
+fviz_cos2(PCanalysis2, choice='var', axes=1)
+
+```
+
+All statements but v141 seems to be quite important in their contributions to explain the total variance and with two principal component we can explain almost 57% of it.
+As before, we expected v83 and v141 to be the least divisive and important aspects, while the most relevant ones appears to be v73, v74, and v75.
+
+
+
+```{r}
+#LCA
+
+f <- cbind(v72, v73, v74, v75, v76, v77, v78, v81, v83, v141)~1
+lca1 <- poLCA(f, se, nclass = 2, graphs = TRUE)
+
+bic.vector <- c()
+for (c in 1:5) {
+  lca2 <- poLCA(f, se, nclass = c, graphs = FALSE)
+  bic.vector <- append(bic.vector, lca2$bic)
+}
+bic <- data.frame(class = c(1:5), bic = bic.vector)
+bic[which.min(bic$bic), ] 
+lca.se <- poLCA(f, se, nclass = 4, graphs = TRUE)
+
+#As before, even if the optimal value of the BIC suggests choosing four classes, we prefer considering three for interpretation purposes. Moreover, when using four classes, there are small groups involving only around 9% and 12% of the population, which may be not so relevant for this analysis.
+
+lca.se <- poLCA(f, se, nclass = 3, graphs = TRUE)
+
+```
+
+The profiles of the Swedish population seems to be totally different from the Hungarian one. 
+
+Considering class one, which represents more than 53% of the population, and taking aside the statement v141 concerning equal rights between men and women (almost everyone agrees), respondents show a strong and total disagreement with all statements. This seems quite a huge step toward a new balance characterized by equality both in the public and private sphere, with exchangeable parental roles, both at home and in the job market. 
+
+Class two, corresponding to around 28% of respondents, shows strong and moderate disagreement with all questions as well: the difference lays in the intensity of the feeling, in particular toward statements like v72, v73, v74, and v83. 
+
+The last class, which characterizes the profiles of 18.4% of respondents, sees as dominant position the moderate disagreement one, for all statements (but v141). Nevertheless, around 16% believes men make better political leaders (v76), 40% that women desire children and house above all (v73), more than 30% that family life suffers if a woman works full-time (v74), and more than 26% that a child suffers (v72).
+
+The outcome of the analysis of Swedish society is not surprising: as all Scandinavian countries, Sweden is one of the states that made the greatest progresses toward gender equality, reducing the pay gap, introducing comparable parental leaves and generous family and educational policies that aim to make the roles of both men and women equal in every aspect of everyday life. It is possible to consider Swedish society as in a transitional state, moving in the direction of a new balance, granting women equality on public and private sphere.
+
+
+
+## CONCLUSION: advantages and disadvantages of LCA
+
+Latent class analysis is a person-oriented approach which captures very well the diversity of people even when classifying them into groups. Indeed, it assigns probabilities of having all kind of opinions given the belonging to a certain class. This is a great advantage of the method since it allows to go into details and stratify the latent groups. Thanks to this, it was possible to outline the stages toward a no longer “incomplete” revolution in various segments of the population, and to understand how commonly spread are beliefs of the first, second and third phase in each latent class. The exploratory LCA worked well because there were lot of data and few missing values, which were removed in advance, even though there is the possibility for LCA in the "poLCA" package to remove them automatically.
+Nevertheless, some critical aspects and disadvantages need to be considered. 
+First of all, no previous pilot study was done to establish whether the chosen statements measured exactly the emancipation of women. Indeed, the original goal of the questions was slightly different: understanding family life and models in Europe. LCA needs a strong theorical base in order to be applied correctly and using the right indicators is also an essential part of this process: finding that the chosen indicators (which however were selected based on previous studies and not randomly) do not exactly represent the concept would undermine all results.
+Independently from this aspect, another disadvantage typical of all surveys is the social desirability bias, which imply that the subject may answer differently from their beliefs and give a response which is more socially acceptable and well-seen. In Likert scales, respondents may also want to avoid extreme positions, which introduce the so-called central tendency bias.
+Another element of disturb in the analysis might be the manual rescaling done at the beginning so that all the answers were encoded in a Likert scale from one to four, taking out respondents which showed neutral positions in questions v81 and v83. This was done due to the need of having all statements in the same scale, however there is the risk this may have distorted the sample.
+An important factor that could not be taken into account was the stratification by socio-economic and educational levels, which would have provided a more complete view of the situation.
+
+
+
